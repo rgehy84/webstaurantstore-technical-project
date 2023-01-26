@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="WebstaurantStore Technical Project" verbose="1" >
+    <listeners>
+        <listener class-name="framework.reporting.listeners.ExtentReportListener" />
+    </listeners>
+    <parameter name="url_to_execute_tests" value="https://www.webstaurantstore.com/" />
+    <parameter name="close_browser_after_after_test_run" value="true" />
+    <!--<test name="WebstaurantStore tests - Firefox">
+        <parameter name="browser_to_run_tests" value="FIREFOX" />
+        <classes>
+            <class name="testcases.TestAddToCartFlow"/>
+        </classes>
+    </test>-->
+    <test name="WebstaurantStore tests tests - Chrome">
+        <parameter name="browser_to_run_tests" value="CHROME" />
+        <classes>
+            <class name="testcases.TestAddToCartFlow" />
+        </classes>
+    </test>
+</suite>
