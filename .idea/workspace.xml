@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94c5e6f5-7dae-4c89-9d31-f50add042498" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/Assertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/BaseDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/BaseUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/Browsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/WebDriverActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/reporting/extent/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/reporting/extent/ExtentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/reporting/extent/ExtentTestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/reporting/extent/SystemInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/framework/reporting/listeners/ExtentReportListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MainNavigation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProductDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SearchResults.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-xml-runners/webstaurantstores-testng-runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestAddToCartFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestAddToCartFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng-xml-runners/webstaurantstores-testng-runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-xml-runners/webstaurantstore-testng-runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,27 +33,22 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2KpRJk8Oyw0nUfpeJi8cvJGeljO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ralphgehy/IdeaProjects/webstaurantstores-technical-project/src/test/resources"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/framework/WebDriverActions.java" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
@@ -116,6 +95,17 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
