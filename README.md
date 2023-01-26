@@ -1,7 +1,7 @@
-# WebstaurantStore Quality Engineering Technical Project
+# Webstaurant Store Quality Engineering Technical Project
 ![image](https://user-images.githubusercontent.com/19873511/214816808-bd2d19e9-88e7-49f4-b426-91b193e2323c.png)
 
-This is the WebstaurantStore Quality Engineering Technical Project by Ralph Gehy
+This is the Webstaurant Store Quality Engineering Technical Project by Ralph Gehy
 
 This automates the functionality of adding a product to the shopping cart. The steps this automated test case goes through are as follows:
 1. Go to https://www.webstaurantstore.com/
