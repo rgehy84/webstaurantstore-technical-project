@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94c5e6f5-7dae-4c89-9d31-f50add042498" name="Changes" comment="update gitignore file" />
+    <list default="true" id="94c5e6f5-7dae-4c89-9d31-f50add042498" name="Changes" comment="update gitignore file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extent-reports/extent-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent-reports/extent-report.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,13 +41,9 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
@@ -56,16 +55,13 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+  <component name="RunManager" selected="TestNG.C:/Users/rgehy/IdeaProjects/webstaurantstore-technical-project/testng-xml-runners/webstaurantstore-testng-runner.xml">
+    <configuration name="C:/Users/rgehy/IdeaProjects/webstaurantstore-technical-project/testng-xml-runners/webstaurantstore-testng-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webstaurantstore-technical-project" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="webstaurantstore-technical-project" />
-      <option name="filePath" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-xml-runners/webstaurantstore-testng-runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,6 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/rgehy/IdeaProjects/webstaurantstore-technical-project/testng-xml-runners/webstaurantstore-testng-runner.xml" />
         <item itemvalue="TestNG./Users/ralphgehy/IdeaProjects/webstaurantstores-technical-project/testng-xml-runners/webstaurantstores-testng-runner.xml" />
       </list>
     </recent_temporary>
