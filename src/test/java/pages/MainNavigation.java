@@ -5,10 +5,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class MainNavigation {
     private WebDriverActions wda;
+    private WebDriverWait wait;
     public MainNavigation(WebDriver driver) {
+        wait = new WebDriverWait(driver, Duration.ofSeconds(15), Duration.ofSeconds(50));
         wda = new WebDriverActions(driver);
         PageFactory.initElements(driver, this);
     }
@@ -45,6 +51,7 @@ public class MainNavigation {
     }
 
     public WebElement getViewCartButtonAfterAddingItemToCart() {
+        wait.until(ExpectedConditions.elementToBeClickable(viewCartButtonAfterAddingItemToCart));
         return viewCartButtonAfterAddingItemToCart;
     }
 
